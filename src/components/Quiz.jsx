@@ -7,11 +7,13 @@ const Quiz = () => {
     const [score, setScore] = useState(0);
 
     useEffect(() => { 
-        fetch('/quiz.json').then(data=>data.json()).then(data=>{setQuestions(data)})
+        fetch("/quiz.json")
+            .then((data) => data.json())
+            .then((data) => setQuestions(data));
     },[])
 
     const handleOption = (qId, selected) => {
-        
+       
     }
 
   return (
