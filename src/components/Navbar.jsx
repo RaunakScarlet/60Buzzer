@@ -10,14 +10,14 @@ const Navbar = () => {
               </a>
               <div className="flex items-center">
                   <ul className=" sm:flex items-center gap-5 sm:gap-10 text-lg ">
-                      <li>How it works?</li>
+                      {/* <li>How it works?</li>
                       <li>Features</li>
-                      <li>About us</li>
+                      <li>About us</li> */}
                   </ul>
               </div>
-              <button className="border border-red-300 rounded text-lg">
+              {/* <button className="border border-red-300 rounded text-lg">
                   Login
-              </button>
+              </button> */}
           </nav>
       </header>
   );
