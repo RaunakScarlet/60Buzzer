@@ -15,9 +15,7 @@ const Navbar = () => {
                       <li>About us</li> */}
                   </ul>
               </div>
-              {/* <button className="border border-red-300 rounded text-lg">
-                  Login
-              </button> */}
+             
           </nav>
       </header>
   );
